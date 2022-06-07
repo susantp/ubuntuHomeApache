@@ -1,9 +1,0 @@
-export ANDROID_HOME=/home/apache/Android/Sdk
-
-export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
-export PATH=$ANDROID_HOME/platform-tools:$PATH
-
-export PATH=/home/apache/sdks/flutter/bin:$PATH
-export PATH=/home/apache/.config/composer/vendor/bin:$PATH
-
-

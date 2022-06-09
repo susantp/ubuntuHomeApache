@@ -41,7 +41,6 @@ php7
 .kube/
 .laradock/
 .minikube/
-.myproject/
 .npm/
 .nvm/
 .oh-my-zsh.bak/

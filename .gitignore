@@ -30,3 +30,4 @@ laradock/
 php7
 .vscode/
 .docker/
+.myproject/

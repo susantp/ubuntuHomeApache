@@ -7,3 +7,4 @@ export PATH=/home/apache/sdks/flutter/bin:$PATH
 export PATH=/home/apache/.config/composer/vendor/bin:$PATH
 
 
+export PATH=/home/apache/.local/bin:/home/apache/.config/composer/vendor/bin:/home/apache/sdks/flutter/bin:/home/apache/Android/Sdk/platform-tools:/home/apache/Android/Sdk/cmdline-tools/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin

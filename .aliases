@@ -8,6 +8,11 @@ alias checkport='sudo lsof -i -P -n |grep 80'
 alias schown='sudo chown ${USER}:${USER}'
 alias c='clear'
 alias connectdev='ssh -p 6822 susant@deviptv.truestreamz.com'
+
 alias python='/usr/bin/python3'
 alias gck='git checkout'
 alias kubectl='minikube kubectl --'
+
+alias python=/usr/bin/python3
+alias gck=git checkout
+alias iptvup='dc up -d redis nginx mysql phpmyadmin workspace'

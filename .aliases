@@ -10,3 +10,4 @@ alias c='clear'
 alias connectdev='ssh -p 6822 susant@deviptv.truestreamz.com'
 alias python=/usr/bin/python3
 alias gck=git checkout
+alias iptvup='dc up -d redis nginx mysql phpmyadmin workspace'

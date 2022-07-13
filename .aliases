@@ -14,5 +14,14 @@ alias gck='git checkout'
 alias kubectl='minikube kubectl --'
 
 alias python=/usr/bin/python3
-alias gck=git checkout
 alias iptvup='dc up -d redis nginx mysql phpmyadmin workspace'
+alias getpods='kubectl get po -A'
+alias kc='kubectl'
+
+#git
+alias gck='git checkout'
+alias gs='git status'
+alias gdiff='git diff'
+alias ga='git add'
+alias gac='git commit -am'
+alias gc='git commit -m'

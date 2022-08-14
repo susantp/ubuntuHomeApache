@@ -2,7 +2,6 @@
 .bash_logout
 .cache/ 
 .config/
-.bash_history
 .bash_logout
 .bashrc.bak
 .cache/
@@ -19,7 +18,6 @@
 .wget-hsts
 .zcompdump
 .zcompdump-apache-5.8
-.zsh_history
 .zshrc.pre-oh-my-zsh
 Pictures/
 snap/

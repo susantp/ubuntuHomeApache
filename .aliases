@@ -29,6 +29,4 @@ alias grm='git rm --cached'
 #gcp 
 alias techbizzconnect='gcloud compute ssh --zone "us-central1-a" "techbizz"  --project "bamboo-weft-358706"'
 
-#utilities
-alias tree='find . -print | sed -e "s;[^/]*/;|____;g;s;____|; |;g"'
 

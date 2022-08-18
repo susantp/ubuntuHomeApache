@@ -26,7 +26,12 @@ alias ga='git add'
 alias gac='git commit -am'
 alias gc='git commit -m'
 alias grm='git rm --cached'
+
 #gcp 
 alias techbizzconnect='gcloud compute ssh --zone "us-central1-a" "techbizz"  --project "bamboo-weft-358706"'
 
+#utilities
+alias tree="find ./ -not -path '*/\.git/*' -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
+#directories
+alias tashidelek="cd /home/apache/php8/tashidelek"

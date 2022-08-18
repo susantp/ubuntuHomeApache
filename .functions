@@ -1,3 +1,4 @@
+###### change directory and list files/folder ########
 function cl() {
     DIR="$*";
         # if no DIR given, go home
@@ -8,3 +9,13 @@ function cl() {
     # use your preferred ls command
         ls -F --color=auto
 }
+
+######## git submodule add #################
+function gaddsub(){
+ read submoduleName\?"Submodule Name: " 
+ read submoduleBranch\?"Submodule Default Branch: "
+ read subModuleRepo\?"Submodule Repo: "
+ read subModuleLocalPath\?"Submodule Local Path: "
+ git submodule add --force --name "$submoduleName" -b "$submoduleBranch" "$subModuleRepo" "$subModuleLocalPath"
+}
+

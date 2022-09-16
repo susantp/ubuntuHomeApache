@@ -1,6 +1,8 @@
+#docker
 alias dc='docker compose'
 alias dce='docker compose exec'
 alias dceu='docker compose exec --user=laradock'
+alias dclocal='dc -f docker-compose.dev.yml'
 alias iptv='/home/apache/laradock'
 alias up='dc up -d nginx redis workspace mysql phpmyadmin redis-webui'
 alias iptv='/home/apache/laradock'

@@ -1,7 +1,7 @@
 #docker
-alias dc='docker compose'
-alias dce='docker compose exec'
-alias dceu='docker compose exec --user=laradock'
+alias dc='docker-compose'
+alias dce='docker-compose exec'
+alias dceu='docker-compose exec --user=laradock'
 alias dcl='dc -f docker-compose.dev.yml'
 alias dcle='dc -f docker-compose.dev.yml exec'
 alias iptv='/home/apache/laradock'
@@ -38,3 +38,6 @@ alias tree="find ./ -not -path '*/\.git/*' -print | sed -e 's;[^/]*/;|____;g;s;_
 
 #directories
 alias tashidelek="cd /home/apache/php8/tashidelek"
+
+#utils
+alias checkPermission="stat -c "%a %n""

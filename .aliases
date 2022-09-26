@@ -1,8 +1,8 @@
 #docker
 alias dc='docker-compose'
 alias dce='docker-compose exec'
-alias dcl='dc -f docker-compose.dev.yml'
-alias dcle='dc -f docker-compose.dev.yml exec'
+alias dcd='dc -f docker-compose.dev.yml'
+alias dcde='dc -f docker-compose.dev.yml exec'
 
 alias dcp='dc -f docker-compose.prod.yml'
 alias dcpe='dc -f docker-compose.prod.yml exec'

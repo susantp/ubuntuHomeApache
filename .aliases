@@ -1,7 +1,7 @@
 #docker
 alias dc='docker-compose'
 alias dce='docker-compose exec'
-alias dceu='docker-compose exec --user=laradock'
+alias dceu='dc exec --user=laradock'
 alias dcl='dc -f docker-compose.dev.yml'
 alias dcle='dc -f docker-compose.dev.yml exec'
 alias iptv='/home/apache/laradock'

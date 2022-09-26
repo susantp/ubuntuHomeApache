@@ -1,16 +1,16 @@
 #docker
 alias dc='docker-compose'
 alias dce='docker-compose exec'
-alias dceu='dc exec --user=laradock'
 alias dcl='dc -f docker-compose.dev.yml'
 alias dcle='dc -f docker-compose.dev.yml exec'
-alias iptv='/home/apache/laradock'
-alias up='dc up -d nginx redis workspace mysql phpmyadmin redis-webui'
-alias iptv='/home/apache/laradock'
+
+alias dcp='dc -f docker-compose.prod.yml'
+alias dcpe='dc -f docker-compose.prod.yml exec'
+
 alias checkport='sudo lsof -i -P -n |grep 80'
 alias schown='sudo chown ${USER}:${USER}'
+
 alias c='clear'
-alias connectdev='ssh -p 6822 susant@deviptv.truestreamz.com'
 
 alias python='/usr/bin/python3'
 alias gck='git checkout'

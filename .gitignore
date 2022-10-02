@@ -86,3 +86,5 @@ spryker/
 .aws
 .azure
 .mozilla/
+.node
+.yarn

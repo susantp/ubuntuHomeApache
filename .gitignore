@@ -91,3 +91,5 @@ spryker/
 .xsession-errors
 Desktop/
 Templates/
+.node
+.yarn

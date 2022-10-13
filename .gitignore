@@ -86,3 +86,8 @@ spryker/
 .aws
 .azure
 .mozilla/
+.Xauthority
+.dmrc
+.xsession-errors
+Desktop/
+Templates/

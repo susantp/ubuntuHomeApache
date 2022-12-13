@@ -41,3 +41,7 @@ alias tashidelek="cd /home/apache/php8/tashidelek"
 
 #utils
 alias checkPermission="stat -c "%a %n""
+
+
+#ssl
+alias gnrssl="sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key -out nginx-selfsigned.crt"

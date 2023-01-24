@@ -1,4 +1,5 @@
 #docker
+alias compose='docker compose'
 alias dc='docker-compose'
 alias dce='docker-compose exec'
 alias dcd='dc -f docker-compose.dev.yml'

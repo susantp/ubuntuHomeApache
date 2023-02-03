@@ -5,7 +5,7 @@
 	process = git-lfs filter-process
 [user]
 	name = Susant Paudel
-	email = techbizznepal@gmail.com
+	email = gracysusant@gmail.com
 [core]
     pager = delta
 

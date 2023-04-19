@@ -1,5 +1,13 @@
 export ANDROID_HOME=/home/apache/Android/Sdk
+#############Maven#######################
+export MAVEN_HOME=/opt/apache-maven-3.9.1
+export PATH=$MAVEN_HOME/bin:$PATH
+###################################
 
+#########ENABLE jdk 20 JAVA########################
+#export JAVA_HOME=/opt/openjdk-20
+#export PATH=$JAVA_HOME/bin:$PATH
+###############################################
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 
@@ -7,4 +15,18 @@ export PATH=/home/apache/sdks/flutter/bin:$PATH
 export PATH=/home/apache/.config/composer/vendor/bin:$PATH
 
 
-export PATH=/home/apache/.local/bin:/home/apache/.config/composer/vendor/bin:/home/apache/sdks/flutter/bin:/home/apache/Android/Sdk/platform-tools:/home/apache/Android/Sdk/cmdline-tools/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+export PATH=/home/apache/.local/bin:$PATH
+export PATH=/home/apache/.config/composer/vendor/bin:$PATH
+export PATH=/home/apache/sdks/flutter/bin:$PATH
+export PATH=/home/apache/Android/Sdk/platform-tools:$PATH
+export PATH=/home/apache/Android/Sdk/cmdline-tools/latest/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/sbin:$PATH
+export PATH=/bin:$PATH
+export PATH=/usr/games:$PATH
+export PATH=/usr/local/games:$PATH
+export PATH=/snap/bin:$PATH
+export PATH=/snap/bin:$PATH

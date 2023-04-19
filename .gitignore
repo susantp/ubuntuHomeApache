@@ -113,3 +113,6 @@ flutterP
 IdeaProjects/
 .dart/
 .dartServer/
+.dotnet
+.gradle
+.pub-cache/

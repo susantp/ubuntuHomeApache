@@ -1,0 +1,32 @@
+00:03:04 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /usr/share/mysql-workbench
+	plugin path: /usr/lib/mysql-workbench/plugins
+	struct path: /usr/share/mysql-workbench/grt
+	module path: /usr/lib/mysql-workbench/modules
+	library path: /usr/share/mysql-workbench/libraries
+	user data dir: /home/apache/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+00:03:04 [INF][      WBContext]: WbContext::init
+00:03:05 [INF][            WBA]: Looking for extension modules for WBA...
+00:03:05 [INF][            WBA]: 0 extension modules found
+00:03:05 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+00:03:05 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+00:03:05 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.33 CE build 2977534 (64 bit)
+	Configuration Directory: /home/apache/.mysql/workbench
+	Data Directory: /usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 23.04 x86_64
+	CPU: 12x Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (1600.214MHz) - 15.44GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 23.04
+
+	Fips mode enabled: no
+
+00:03:05 [WRN][       WBModule]: OS not found on supported OS list. OS string: 'Ubuntu 23.04 x86_64'

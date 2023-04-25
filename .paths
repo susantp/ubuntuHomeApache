@@ -5,8 +5,8 @@ export PATH=$MAVEN_HOME/bin:$PATH
 ###################################
 
 #########ENABLE jdk 20 JAVA########################
-#export JAVA_HOME=/opt/openjdk-20
-#export PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME=/opt/openjdk-20
+export PATH=$JAVA_HOME/bin:$PATH
 ###############################################
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH

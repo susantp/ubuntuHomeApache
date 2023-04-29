@@ -116,3 +116,4 @@ IdeaProjects/
 .dotnet
 .gradle
 .pub-cache/
+.thamelmart*

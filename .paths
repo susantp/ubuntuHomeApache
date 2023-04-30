@@ -1,3 +1,4 @@
+export CHROME_EXECUTABLE=/snap/bin/brave
 export ANDROID_HOME=/home/apache/Android/Sdk
 #############Maven#######################
 export MAVEN_HOME=/opt/apache-maven-3.9.1

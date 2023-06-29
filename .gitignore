@@ -117,3 +117,9 @@ IdeaProjects/
 .gradle
 .pub-cache/
 .thamelmart*
+.dart-tool/
+.emulator_console_auth_token
+.flutter-devtools/
+.product_module/
+.viminfo
+

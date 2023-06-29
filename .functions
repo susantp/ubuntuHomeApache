@@ -13,8 +13,8 @@ function cl() {
 ######## git submodule add #################
 function gaddsub(){
  read submoduleName\?"Submodule Name: " 
- read submoduleBranch\?"Submodule Default Branch: "
- read subModuleRepo\?"Submodule Repo: "
+ read submoduleBranchName\?"Submodule Default Branch: "
+ read subModuleRepoUrl\?"Submodule Repo: "
  read subModuleLocalPath\?"Submodule Local Path: "
  git submodule add --force --name "$submoduleName" -b "$submoduleBranch" "$subModuleRepo" "$subModuleLocalPath"
 }
